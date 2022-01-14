@@ -1,0 +1,42 @@
+:root {
+  --blue200: rgb(33, 180, 210);
+}
+
+.sección_titulo {
+  margin: 3rem 0 0 0;
+}
+
+.tienda_productos_contenedor {
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 57.5rem;
+}
+
+.productos_contenedor {
+  margin: 0;
+}
+
+select {
+  display: block;
+  margin: 0 2rem 2rem auto;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  border-radius: 5px;
+  font-family: inherit;
+  font-weight: 600;
+  transition: border-color 250ms ease;
+}
+
+select:hover {
+  border-color: var(--blue200);
+  transition: border-color 250ms ease;
+}
+
+@media (max-width: 755px) {
+  .sección_titulo {
+    margin: 3rem 0 2rem 0;
+  }
+
+  select {
+    width: 100%;
+  }
+}

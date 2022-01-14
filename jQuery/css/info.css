@@ -1,0 +1,30 @@
+article {
+  padding: 3rem 10rem 5rem 10rem;
+}
+
+section {
+  margin: 2rem 0;
+  line-height: 30px;
+  font-size: 1.2rem;
+  color: #444444;
+}
+
+section span {
+  font-weight: 600;
+  color: #222222;
+}
+
+section li {
+  margin: 0 0 1rem 1.5rem;
+  list-style: initial;
+}
+
+@media (max-width: 1050px) {
+  article {
+  padding: 2rem 3.5rem 3rem 3.5rem;
+  }
+
+  section {
+    font-size: 1rem;
+  }
+}
